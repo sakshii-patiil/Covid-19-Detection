@@ -7,6 +7,9 @@
 	top:150px;
 	text-align: center;
 }
+p{
+	margin-bottom: 10px;
+}
 p:first-child{
 	font-size: 19px;
 	margin-bottom: 5px;
