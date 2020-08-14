@@ -1,0 +1,137 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+img{
+	position: fixed;
+	filter: blur(4px);
+}
+#menu{
+	position: absolute;
+	right:10px;
+	top:20px;
+}
+#menu ul{
+	list-style: none;
+}
+#menu ul li{
+	display: inline;
+	margin-left: 10px;
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+	padding: 10px;
+}
+
+#menu li:hover{
+	background-color: white;
+	color:blue;
+	border-radius: 5px;
+	cursor: pointer;
+}
+p{
+	position: absolute;
+	top:250px;
+	left: 530px;
+	font-size: 35px;
+	color: black;
+	font-weight: bold;
+	font-family: "belleza";
+}
+span{
+	color: #f2a764;
+}
+#main-a div img{
+	position: absolute;
+	filter: blur(0);
+	top:313px;
+	left:408px;
+	cursor: pointer;
+}
+#main-a div input{
+	position: absolute;
+	top:300px;
+	left: 400px;
+	width:600px;
+	height: 20px;
+	border: 1px solid black;
+	padding: 15px 15px 15px 45px;
+	font-size: 20px;
+	outline: none;
+	box-shadow: 0 5px 10px 0 rgba(0,0,0,0.534);
+}
+#main-a div h1{
+	position: absolute;
+	top:307px;
+	right:320px;
+	cursor: pointer;
+	color: grey;
+}
+#main-a div h1:hover{
+	color: black;
+}
+#main-b{
+	position: absolute;
+	width: 650px;
+	height: 350px;
+	background-color: white;
+	top:120px;
+	left:400px;
+	padding: 10px;
+	display: none;
+	box-shadow: 0 5px 10px 0 rgba(0,0,0,0.534);
+}
+#main-b ul li{
+	list-style: none;
+	font-size: 20px;
+	margin:15px 0 5px 10px;
+}
+#main-b ul li input{
+	position: absolute;
+	left:190px;
+	width:350px;
+}
+#main-b ul li button{
+	padding:10px 15px;
+	width:630px;
+	font-size: 18px;
+}
+#main-b h1{
+	position: relative;
+	display: inline;
+}
+#pd{
+	left:220px;
+	font-family: "";
+	color: ;
+}
+#close{
+	font-size: 25px;
+	left: 435px;
+	top:-10px;
+	cursor: pointer;
+	color:grey;
+}
+#close:hover{
+	color:blue;
+}
+#main-c{
+	position: absolute;
+	width:600px;
+	height:550px;
+	background-color: white;
+	left:400px;
+	top:60px;
+	box-shadow: 0 5px 10px 0 rgba(0,0,0,0.534);
+	display: none;
+}
+#main-c h1{
+	position: absolute;
+	display: inline;
+	left:180px;
+	margin-top: 10px;
+}
+#main-c #close{
+	left:580px;
+}

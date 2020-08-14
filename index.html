@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Covid-19 Detection</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="jQuery.js"></script>
+</head>
+<body>
+	<img id="bg-img" src="images/user-login.jpg" height="100%" width="100%">
+	<nav>
+		<div id="home"><a href="#">Home</a></div>
+		<div><a href="#" class="signupO">SignUp-Ordinary</a></div>
+		<div><a href="#" class="signupC">SignUp-Company</a></div>
+		<div><a href="#" class="loginO" >Login-Ordinary Account</a></div>
+		<div><a href="#" class="loginC">Login-Company Account</a></div>
+	</nav>
+	<h1>COVID-19 DETECTION</h1>
+
+	<div id="popup-container" class="popup-container-loginO">
+		<a href="#" id="close-button" class="close-button-loginO">&times</a>
+			<div id="information">
+				<img src="images/information.jpg" width="350px">
+			</div>
+		<div id="login-form">
+			<form>
+				<h2>Login</h2>
+				<p>Username:</p>
+					<input id="type" class="login0U" type="text"  placeholder="Enter username" required>
+				<p>Password:</p>
+					<input id="type" class="login0P" type="password" placeholder="Enter password" required>
+					<br>
+				<a href="">Forgot password ?</a>
+				<button id="loginO-button">Login</button><br>
+			</form>
+		</div>
+	</div>
+
+	<div id="popup-container" class="popup-container-signupO">
+		<a href="#" id="close-button" class="close-button-signupO">&times</a>
+			<div id="information">
+				<img src="images/signup.jpeg" width="300px">
+			</div>
+			<div id="login-form">
+				<form action="" method="">
+					<h2>Sign Up</h2>
+					<p>Enter Name:</p>
+						<input id="type" type="text"  placeholder="Enter your name" required>
+					<p>Enter Username:</p>
+						<input id="type" type="text"  placeholder="Enter username" required>
+					<p>Choose Password:</p>
+						<input id="type" type="password" placeholder="Enter password" required><br>
+					<button id="signupO-button">Sign up</button><br>
+				</form>
+			</div>
+	</div>
+
+	<div id="popup-container" class="popup-container-signupC">
+		<a href="#" id="close-button" class="close-button-signupC">&times</a>
+			<div id="information">
+				<img src="images/signupC.jpg" width="300px">
+			</div>
+			<div id="login-form">
+				<form action="" method="">
+					<h2>Sign Up</h2>
+					<p>Enter Company Name:</p>
+						<input id="type" type="text"  placeholder="Enter your company name" required>
+					<p>Enter Company Reg.Address :</p>
+						<input id="type" type="text"  placeholder="Enter your reg Address" required>
+					<p>Enter Username:</p>
+						<input id="type" type="text"  placeholder="Enter username" required>
+					<p>Choose Password:</p>
+						<input id="type" type="password" placeholder="Enter password" required><br>
+					<button id="signupC-button">Sign up</button><br>
+				</form>
+			</div>
+	</div>
+
+	<div id="popup-container" class="popup-container-loginC">
+		<a href="#" id="close-button" class="close-button-loginC">&times</a>
+			<div id="information">
+				<img src="images/LoginC.jpg" width="300px">
+			</div>
+			<div id="login-form">
+				<form action="" method="">
+					<h2>Login Company</h2>
+					<p>Username:</p>
+						<input id="type" type="text"  placeholder="Enter username" required>
+					<p>Password:</p>
+						<input id="type" type="password" placeholder="Enter password" required>
+					<a href="">Forgot password ?</a><br>
+					<button  id="loginC-button">Login</button><br>
+				</form>
+			</div>
+	</div>
+
+</body>
+</html>

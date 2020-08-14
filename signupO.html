@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SignUp-Ordinary</title>
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/signupO.css">
+	<!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" -->
+	<script type="text/javascript" src="jQuery.js"></script>
+</head>
+<body style="background-color: #f7f7f7;">
+	<div id="main">
+		<div id="main-a">
+			<img src="images/signup.jpeg" >
+		</div>
+			<div id="main-b">
+				<div class="row" id="main-header">
+					<h1 style="">WELCOME</h1>
+					<h1>We need your information to set your profile</h1>
+				</div>
+
+				<div class="row" id="main-body">
+					<form>
+						<label>Date of Birth:</label>
+						<input type="date" name="" placeholder="Enter Date of birth" id="birth-date" onchange="getBirthdate(this)"><br>
+
+						<label>Age:</label>
+						<input type="text" name="" placeholder="Enter your age"><br>
+
+						<label>Gender:</label>
+						<select onchange="getGender(this)" id="gender">
+							<option value="0" selected disabled>Select gender</option>
+							<option value="male">Male</option>
+							<option value="female">Female</option>
+							<option value="thers">Others</option>
+						</select><br>
+
+						<div id="gender-female">
+						<label>Are you Pregnant?</label>
+							<input type="radio" name="yes">Yes
+							<input type="radio" name="yes">No<br>
+						</div>
+
+						<label>Address:</label>
+						<textarea placeholder="Enter your address"></textarea><br>
+
+						<label>Recent foreign trip?</label>
+						<input type="radio" value="yes" name="no" onclick="getTrip(this)">Yes
+						<input type="radio" value="no" name="no" onclick="getTrip(this)">No<br>
+
+						<div id="foreign-trip">
+							<label>Enter date of travel:</label>
+							<input type="date" name="date" id="travel-date">
+							<ol id="dates">
+							</ol>
+						</div>
+
+						<label>Enter current temperature:</label>
+						<input type="text" name="" placeholder="Enter temp in Celcius"><br>
+
+						<label>Do you notice any of the below symptoms?</label>
+						<div id="symptoms">
+							<input type="checkbox" name="fever"> Fever<br>
+							<input type="checkbox" name="cough"> Cough<br>
+							<input type="checkbox" name="cold"> Cold<br>
+							<input type="checkbox" name="sour-throat"> Sour-Throat<br>
+							<input type="checkbox" name="tastless"> Tastless<br>
+						</div>
+
+						<button class="btn" id="submit">Submit</button>
+					</form>
+				</div>
+			</div>
+
+			<div id="main-c">
+				<a href="#" id="slide-right">
+					<div id="one"></div>
+					<div id="two"></div>
+					<div id="three"></div>
+				</a>
+				<div id="menu">
+					<div id="profile">Profile</div>
+					<div id="del-acc">Delete Acc</div>
+					<div id="log-out">Log out</div>
+				</div>
+				<div id="profile-a">
+					<h1 style="">Stay home stay safe</h1>
+					<img src="images/signupO.jpg">
+				</div>
+				<div id="profile-b">
+					<h1>Profile Details</h1>
+					<ul>
+						<li><p>Name:</p></li>
+						<li><p>Username:</p></li>
+						<li><li><p>Password:</p></li>
+						<li><p>Change Password: </p></li>
+						<li><p>Address:</p></li>
+						<li><p>DOB:</p></li>
+						<li><p>Age:</p></li>
+						<li><p>Gender</p></li>
+						<li><p>History of foreign trip:</p></li>
+						<li><p>Your recorded temperature:</p></li>
+						<li><p>Recorded Symptoms:</p></li>
+						<li><button>Save changes</button></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+</body>
+</html>

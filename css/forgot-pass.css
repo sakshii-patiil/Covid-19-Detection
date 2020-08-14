@@ -1,0 +1,52 @@
+*{
+	padding: 0;
+	margin:0;
+}
+#main{
+	position: relative;
+	top:150px;
+	text-align: center;
+}
+p:first-child{
+	font-size: 19px;
+	margin-bottom: 5px;
+	color: #ff0018;
+}
+p:nth-child(2){
+	font-size:25px;
+	margin-bottom: 10px;
+}
+ul li{
+	list-style: none;
+}
+input{
+	width:190px;
+	padding: 10px 15px;
+	margin-bottom: 19px;
+	border-radius: 10px;
+	border: none;
+	box-shadow: 0 5px 10px 0 rgba(0,0,0,0.534);
+	outline: none; 
+	font-size: 15px;
+}
+button{
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 10px;
+	width:220px;
+	height: 32px;
+	border: none;
+	box-shadow: 0 5px 10px 0 rgba(0,0,0,0.534);
+	outline: none;
+	background-color: lightblue; 
+}
+
+#reset-pass{
+	display: none;
+}
+#reset-pass button{
+	margin-left: 10px;
+}
+button:hover{
+	background-color: skyblue;
+}
