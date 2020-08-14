@@ -64,7 +64,7 @@ $(document).ready(function(){
 		$(".signupO").removeClass("active");
 	});
 	$("#loginC-button").click(function(){
-		window.location.href="loginC.html";
+		window.location.href="company.html";
 	})
 	$(".close-button-loginC").click(function(){
 		$(".popup-container-loginC").fadeOut("fast");
@@ -85,7 +85,7 @@ $(document).ready(function(){
 		$(".signupO").removeClass("active");
 	});
 	$("#signupC-button").click(function(){
-		window.location.href="loginC.html";
+		window.location.href="company.html";
 	})
 	$(".close-button-signupC").click(function(){
 		$(".popup-container-signupC").fadeOut("fast");
@@ -163,7 +163,7 @@ $(document).ready(function(){
 
 			})
 
-//Below jQuery code for signupC.html and LoginC.html
+//Below jQuery code for company.html
 
 $(document).ready(function(){
 			var s;
