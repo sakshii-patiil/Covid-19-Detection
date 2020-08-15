@@ -85,12 +85,13 @@ span{
 #main-b ul li{
 	list-style: none;
 	font-size: 20px;
-	margin:15px 0 5px 10px;
+	margin:15px 0 10px 10px;
 }
 #main-b ul li input{
 	position: absolute;
 	left:190px;
 	width:350px;
+	padding:3px 0 5px 5px;
 }
 #main-b ul li button{
 	padding:10px 15px;
@@ -103,8 +104,6 @@ span{
 }
 #pd{
 	left:220px;
-	font-family: "";
-	color: ;
 }
 #close{
 	font-size: 25px;
