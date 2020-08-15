@@ -4,7 +4,6 @@
 	<title>SignUp-Ordinary</title>
 	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/signupO.css">
-	<!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" -->
 	<script type="text/javascript" src="jQuery.js"></script>
 </head>
 <body style="background-color: #f7f7f7;">
@@ -24,7 +23,7 @@
 						<input type="date" name="" placeholder="Enter Date of birth" id="birth-date" onchange="getBirthdate(this)"><br>
 
 						<label>Age:</label>
-						<input type="text" name="" placeholder="Enter your age"><br>
+						<input type="number" name="" placeholder="Age" min="1" max="99" ><br>
 
 						<label>Gender:</label>
 						<select onchange="getGender(this)" id="gender">
@@ -33,6 +32,9 @@
 							<option value="female">Female</option>
 							<option value="thers">Others</option>
 						</select><br>
+
+						<label>Email-id:</label>
+						<input type="email" name="" placeholder="Enter email-id" required><br>
 
 						<div id="gender-female">
 						<label>Are you Pregnant?</label>
@@ -55,7 +57,7 @@
 						</div>
 
 						<label>Enter current temperature:</label>
-						<input type="text" name="" placeholder="Enter temp in Celcius"><br>
+						<input type="Number" name="" placeholder="Fahrenheit" min="97" max="115" ><br>
 
 						<label>Do you notice any of the below symptoms?</label>
 						<div id="symptoms">
@@ -89,17 +91,17 @@
 				<div id="profile-b">
 					<h1>Profile Details</h1>
 					<ul>
-						<li><p>Name:</p></li>
-						<li><p>Username:</p></li>
-						<li><li><p>Password:</p></li>
-						<li><p>Change Password: </p></li>
-						<li><p>Address:</p></li>
-						<li><p>DOB:</p></li>
-						<li><p>Age:</p></li>
-						<li><p>Gender</p></li>
-						<li><p>History of foreign trip:</p></li>
-						<li><p>Your recorded temperature:</p></li>
-						<li><p>Recorded Symptoms:</p></li>
+						<li>Name:<input type="text" name=""></li>
+						<li>Username:<input type="text" name=""></li>
+						<li>Password:<input type="text" name=""></li>
+						<li>Change Password:<input type="text" name=""> </li>
+						<li>Address:<input type="text" name=""></li>
+						<li>Reg. Email-id:<input type="text" name=""></li>
+						<li>DOB:<input type="text" name=""></li>
+						<li>Age:<input type="text" name=""></li>
+						<li>Gender<input type="text" name=""></li>
+						<li>History of foreign trip:<input type="text" name=""></li>
+						<li>Your recorded temperature:<input type="text" name=""></li>
 						<li><button>Save changes</button></li>
 					</ul>
 				</div>
