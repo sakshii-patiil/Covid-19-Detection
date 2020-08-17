@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #f7f7f7;
+}
+#main{
+	display: flex;
+	align-items: flex-start;
+}
+#table{
+	width:950px;
+	padding: 10px;
+}
+table{
+	margin: 15px 10px;
+	border:2px solid black;
+	border-radius: 5px;
+}
+table th{
+	padding: 25px;
+	background-color: rgb(67,70,89);
+	color: white;
+	font-size: 20px;
+	font-family: "arial";
+	border-radius: 5px;
+}
+table tr:nth-child(even){
+	background-color: #e0e0e0;
+}
+table td{
+	padding:10px 10px 10px 30px;
+	font-size: 19px;
+}
+#tweets{
+	position: relative;
+	top:24px;
+	width:335px;
+	padding: 20px;
+	background-color: white;
+	border-radius: 5px;
+}
+#tweets h1{
+	color:#00acee;
+	font-family: "Segoe UI";
+}
+img{
+	float: right;
+	margin:5px 0 0 0;
+}
