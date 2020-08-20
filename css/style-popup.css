@@ -117,58 +117,6 @@ img{
 	box-shadow: 0 0 10px  rgba(0,0,0,0.534);
 	cursor: pointer;
 }
-/*.popup-container-loginO #login-form h2,.popup-container-signupO #login-form h2,.popup-container-signupC #login-form h2{
-	position: relative;
-	font-size: 35px;
-	font-family: cursive;
-	color: #2B60DE;
-	left:390px;
-	margin-bottom: 20px;
-}
-.popup-container-signupC #login-form{
-	position: relative;
-	left:75px;
-}
-.popup-container-loginC #login-form h2{
-	position: relative;
-	font-size: 35px;
-	font-family: cursive;
-	color: #2B60DE;
-	left:380px;
-	margin-bottom: 20px;
-}
-#login-form input{
-	position: relative;
-	left:350px;
-	border:none;
-	margin-left: 50px;
-	border-bottom: 1px solid grey;
-	width:200px; 
-	margin-bottom: 20px;
-}
-.popup-container-signupO #login-form input{
-	background-color: #f7f7f7;
-}
-
-
-#login-form-signupO button,#login-form-signupC button{
-	display: block;
-	margin-top:30px;
-}
-#login-form a{
-	position: relative;
-	display: block;
-	text-decoration: none;
-	color:black;
-	margin-top: -16px;
-	left:510px;
-	margin-bottom: 25px;
-	
-
-}
-
-
-*/
 #close-button{
 	position: fixed;
 	top:5px;
@@ -187,4 +135,3 @@ img{
 	padding:0 10px 0 10px;
 	color:white;
 }
-
